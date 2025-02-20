@@ -1,7 +1,7 @@
 /* Apply a gradient background */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(120deg, #3498db, #8e44ad);
+    background: linear-gradient(120deg, #31a2ee, #2154c2);
     color: white;
     text-align: center;
     padding: 50px;
@@ -15,6 +15,14 @@ header {
 h1 {
     font-size: 2.5em;
     font-weight: bold;
+}
+
+.banner {
+    width: 100%; /* Full width */
+    max-height: 300px; /* Limit height */
+    object-fit: cover; /* Crop instead of stretching */
+    display: block;
+    margin: 0 auto; /* Center it */
 }
 
 /* Button styling */
