@@ -19,7 +19,7 @@ h1 {
 
 .banner {
     width: 100%; /* Full width */
-    max-height: 300px; /* Limit height */
+    max-height: auto; /* Limit height */
     object-fit: cover; /* Crop instead of stretching */
     display: block;
     margin: 0 auto; /* Center it */
